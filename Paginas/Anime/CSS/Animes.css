@@ -260,5 +260,44 @@ width: 100%;
 .sub-titulo3 {
       display: none;
 }
+
+#DragonBall {
+    width: 150px;
+    height: 190px;
+    cursor: pointer;
+    
+    
 }
+
+
+
+#Tsugomomo {
+  width: 130px;
+    height: 190px;
+    cursor: pointer;
+    
+    
+}
+
+
+
+#Overlord {
+  width: 130px;
+    height: 190px;
+    cursor: pointer;
+
+
+}
+
+#Relife {
+  width: 130px;
+  height: 190px;
+  cursor: pointer;
+  
+}
+
+
+}
+
+
 
