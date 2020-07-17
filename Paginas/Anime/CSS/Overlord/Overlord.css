@@ -151,3 +151,45 @@ margin-top: 50px;
 #logo {
   margin: 20px 0px 0px 200px;
 }
+
+@media screen and (max-width: 1000px) {
+.main .articles {
+  width:100%;
+  margin: 0px;
+float: left;
+padding: 0px;
+}
+
+
+header {
+  width: 100%;
+}
+
+  aside {
+    width:100%;
+  }
+footer {
+margin-left: 0px;
+width: 100%;
+}
+
+.contador {
+  width: 100%;
+}
+.menu {
+  top: 77%;
+}
+.left-panel {
+  height: 130%;
+}
+
+#Overlord {
+  width: 120px;
+  height: 180px;
+}
+.sub-titulo3 {
+    margin-top: -6px;
+    font-size: 15px;
+    color: #ff0505;
+}
+}

@@ -219,3 +219,48 @@ margin-top: 50px;
 #logo {
   margin: 20px 0px 0px 200px;
 }
+
+@media screen and (max-width: 1000px) {
+.main .articles {
+  width:100%;
+  margin: 0px;
+float: left;
+padding: 0px;
+}
+
+
+header {
+  width: 100%;
+}
+
+  aside {
+    width:100%;
+  }
+footer {
+margin-left: 0px;
+width: 100%;
+}
+
+.contador {
+  width: 100%;
+}
+.menu {
+  top: 53%;
+}
+.boton1 {
+  width: 130px;
+  margin: 0;
+}
+.boton2 {
+  width: 130px;
+  margin: 0;
+  margin-left: 80px;
+
+}
+  
+.kp {
+  width: 380px;
+}
+
+}
+

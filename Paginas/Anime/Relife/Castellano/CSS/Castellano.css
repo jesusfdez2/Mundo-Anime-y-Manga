@@ -156,3 +156,38 @@ float: left;
 margin-left: 60px;
 margin-top: 50px;
 }
+
+@media screen and (max-width: 1000px) {
+.main .articles {
+  width:100%;
+  margin: 0px;
+float: left;
+padding: 0px;
+}
+
+
+header {
+  width: 100%;
+}
+
+  aside {
+    width:100%;
+  }
+footer {
+margin-left: 0px;
+width: 100%;
+}
+
+.contador {
+  width: 100%;
+}
+.menu {
+  top: 53%;
+}
+
+.boton1 {
+  width: 130px;
+  
+}
+
+}

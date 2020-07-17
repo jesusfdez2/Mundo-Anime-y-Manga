@@ -98,6 +98,7 @@ li:hover {
     border: solid white;
     border-width: 0 0.1rem;
 }
+
 .main .articles {
   width: 68.5%;
   background: #fff;
@@ -116,89 +117,6 @@ h1 {
 
 }
 
-#DragonBall {
-    width: 150px;
-    height: 190px;
-    cursor: pointer;
-    
-    
-}
-
-
-
-#Tsugomomo {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-    
-    
-}
-
-
-
-#Overlord {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-
-
-}
-
-#Relife {
-  width: 150px;
-  height: 190px;
-  cursor: pointer;
-  
-}
-
-.sub-titulo {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-.sub-titulo2 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.sub-titulo3 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.sub-titulo4 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.s {
-  float: left;
-  margin-right: 10px;
-}
-
-.s2 {
-  float: left;
-  margin-right: 10px;
-}
-
-.s3 {
-  float: left;
-  margin-right: 10px;
-}
-
-.s4 {
-  float: left;
-  margin-left: 10px;
-}
-
-
 footer {
   background: #000;
   clear: both;
@@ -216,10 +134,12 @@ margin-top: 50px;
   margin: 20px 0px 0px 200px;
 }
 
-.contador {
-  margin-top: 100px;
-  margin-left: 950px;
-  
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1000px) {
@@ -247,52 +167,11 @@ width: 100%;
   width: 100%;
 }
 .menu {
-  top: 66%;
-}
-.left-panel {
-  height: 130%;
+  top: 53%;
 }
 
-
-
-
-#DragonBall {
-    width: 120px;
-    height: 180px;
-    cursor: pointer;
-    
-    
+.Tomo1 {
+  width: 100%;
 }
 
-
-
-#Tsugomomo {
-  width: 120px;
-    height: 180px;
-    cursor: pointer;
-    
-    
 }
-
-
-
-#Overlord {
-  width: 120px;
-    height: 180px;
-    cursor: pointer;
-
-
-}
-
-#Relife {
-  width: 120px;
-  height: 180px;
-  cursor: pointer;
-  
-}
-
-
-}
-
-
-

@@ -151,3 +151,45 @@ margin-top: 50px;
 #logo {
   margin: 20px 0px 0px 200px;
 }
+
+@media screen and (max-width: 1000px) {
+.main .articles {
+  width:100%;
+  margin: 0px;
+float: left;
+padding: 0px;
+}
+
+
+header {
+  width: 100%;
+}
+
+  aside {
+    width:100%;
+  }
+footer {
+margin-left: 0px;
+width: 100%;
+}
+
+.contador {
+  width: 100%;
+}
+.menu {
+  top: 75%;
+}
+.left-panel {
+  height: 130%;
+}
+
+#latino {
+  width: 120px;
+  height: 180px;
+}
+.sub-titulo {
+    margin-top: -6px;
+    font-size: 18px;
+    color: #1813c1;
+}
+}

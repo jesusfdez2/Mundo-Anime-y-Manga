@@ -8,7 +8,13 @@ header, .main {
   max-width:950px;
   margin:10px auto;
 }
+.Animes1 {
+    color:#64F01E ;
+}
 
+.Mangas1 {
+  color:#EAE306;
+}
 header nav{
   background:#528ED5;
   overflow: hidden;
@@ -109,6 +115,7 @@ aside {
   width: 30%;
   background:#15cbce;
   float: left;
+  
 }
 
 h1 {
@@ -116,87 +123,30 @@ h1 {
 
 }
 
-#DragonBall {
-    width: 150px;
-    height: 190px;
-    cursor: pointer;
-    
-    
+#logo {
+  margin: 20px 0px 0px 200px;
 }
 
-
-
-#Tsugomomo {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-    
-    
+.boton1 {
+  background: #F00;
+  color: #fff;
+display: inline-block;
+font-size: 20px;
+margin: 20px ;
+padding: 10px 0px;
+text-align: center;
+width: 200px;
+text-decoration: none;
+box-shadow: 0px 3px 0px #373c3c;
+border-radius: .5em;
+cursor: pointer;
+transition:background-color 1s
 }
 
-
-
-#Overlord {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-
-
+.boton1:hover {
+  background-color: #888
 }
 
-#Relife {
-  width: 150px;
-  height: 190px;
-  cursor: pointer;
-  
-}
-
-.sub-titulo {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-.sub-titulo2 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.sub-titulo3 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.sub-titulo4 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.s {
-  float: left;
-  margin-right: 10px;
-}
-
-.s2 {
-  float: left;
-  margin-right: 10px;
-}
-
-.s3 {
-  float: left;
-  margin-right: 10px;
-}
-
-.s4 {
-  float: left;
-  margin-left: 10px;
-}
 
 
 footer {
@@ -211,88 +161,3 @@ float: left;
 margin-left: 60px;
 margin-top: 50px;
 }
-
-#logo {
-  margin: 20px 0px 0px 200px;
-}
-
-.contador {
-  margin-top: 100px;
-  margin-left: 950px;
-  
-}
-
-@media screen and (max-width: 1000px) {
-.main .articles {
-  width:100%;
-  margin: 0px;
-float: left;
-padding: 0px;
-}
-
-
-header {
-  width: 100%;
-}
-
-  aside {
-    width:100%;
-  }
-footer {
-margin-left: 0px;
-width: 100%;
-}
-
-.contador {
-  width: 100%;
-}
-.menu {
-  top: 66%;
-}
-.left-panel {
-  height: 130%;
-}
-
-
-
-
-#DragonBall {
-    width: 120px;
-    height: 180px;
-    cursor: pointer;
-    
-    
-}
-
-
-
-#Tsugomomo {
-  width: 120px;
-    height: 180px;
-    cursor: pointer;
-    
-    
-}
-
-
-
-#Overlord {
-  width: 120px;
-    height: 180px;
-    cursor: pointer;
-
-
-}
-
-#Relife {
-  width: 120px;
-  height: 180px;
-  cursor: pointer;
-  
-}
-
-
-}
-
-
-
