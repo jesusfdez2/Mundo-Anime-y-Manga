@@ -1,6 +1,5 @@
 body{
-   background:  #1b1919;
-;
+   background: #1b1919;
   font-size: 20px;
 }
 
@@ -39,7 +38,7 @@ header nav ul li1 a:hover{
     height: 2.7rem;
     background: #322e2e;
     border-radius: 0.5rem;
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 5%;
     font-family: sans-serif;
@@ -57,7 +56,7 @@ header nav ul li1 a:hover{
 .left-panel {
     width: 40%;
     height: 100%;
-    background:  -webkit-linear-gradient(black, black, black);
+     background:  -webkit-linear-gradient(black, black, black);
     /*opera*/
     background: -o-linear-gradient(black, black, black);
     /*estandar*/
@@ -83,6 +82,7 @@ header nav ul li1 a:hover{
 ul a {
     color: #fff;
     text-decoration: none;
+    
 }
 
 li {
@@ -113,91 +113,52 @@ aside {
   color: #fff;
 }
 
-h1 {
-  font-size:40px;
+.boton1 {
+  background: black;
+  color: #fff;
+display: inline-block;
+font-size: 20px;
+margin-right: 20px;
+padding: 10px 0px;
+text-align: center;
+width: 200px;
+text-decoration: none;
+box-shadow: 0px 3px 0px #373c3c;
+border-radius: .5em;
+cursor: pointer;
+transition:background-color 1s
+}
+
+.boton1:hover {
+  background-color: #888
+}
+
+.boton2 {
+  background: black;
+  color: #fff;
+display: inline-block;
+font-size: 20px;
+margin-left: 220px;
+margin-top: 30px;
+padding: 10px 0px;
+text-align: center;
+width: 200px;
+text-decoration: none;
+box-shadow: 0px 3px 0px #373c3c;
+border-radius: .5em;
+cursor: pointer;
+transition: background-color 1s
 
 }
 
-#DragonBall {
-    width: 150px;
-    height: 190px;
-    cursor: pointer;
-    
-    
+.boton2:hover {
+  background-color: #888
 }
-
-
-
-#Tsugomomo {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-    
-    
-}
-
-
-
-#Overlord {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-
-
-}
-
-#Relife {
-  width: 150px;
-  height: 190px;
-  cursor: pointer;
   
-}
-
-.sub-titulo {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #fff;
-    
-}
-.sub-titulo2 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #fff;
-    
-}
-
-.sub-titulo3 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #fff;
-    
-}
-
-.sub-titulo4 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #fff;
-    
-}
-
-.s {
-  float: left;
-  margin-right: 10px;
-}
-
-.s2 {
-  float: left;
-  margin-right: 10px;
-}
-
-.s3 {
-  float: left;
-  margin-right: 10px;
-}
-
-.s4 {
-  float: left;
-  margin-left: 10px;
+.none {
+  margin-left: 220px;
+  margin-top: 20px;
+  background: black;
 }
 
 footer {

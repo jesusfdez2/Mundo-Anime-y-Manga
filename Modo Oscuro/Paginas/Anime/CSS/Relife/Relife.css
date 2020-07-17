@@ -1,6 +1,5 @@
 body{
-   background:  #1b1919;
-;
+   background: #1b1919;
   font-size: 20px;
 }
 
@@ -57,12 +56,10 @@ header nav ul li1 a:hover{
 .left-panel {
     width: 40%;
     height: 100%;
-    background:  -webkit-linear-gradient(black, black, black);
+     background:  -webkit-linear-gradient(black, black, black);
     /*opera*/
     background: -o-linear-gradient(black, black, black);
-    /*estandar*/
-    background: linear-gradient(black, black, black);
-     position: absolute;
+    /*estandar*/ position: absolute;
     top: 0;
     left: -40%;
     display: flex;
@@ -81,7 +78,7 @@ header nav ul li1 a:hover{
 }
 
 ul a {
-    color: #fff;
+    color: #F7F7F7;
     text-decoration: none;
 }
 
@@ -111,6 +108,11 @@ aside {
   background:#222020;
   float: left;
   color: #fff;
+ 
+}
+
+p5 {
+    width: 30px;
 }
 
 h1 {
@@ -118,86 +120,19 @@ h1 {
 
 }
 
-#DragonBall {
+#Relife {
     width: 150px;
     height: 190px;
     cursor: pointer;
     
     
-}
-
-
-
-#Tsugomomo {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-    
     
 }
-
-
-
-#Overlord {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-
-
-}
-
-#Relife {
-  width: 150px;
-  height: 190px;
-  cursor: pointer;
-  
-}
-
-.sub-titulo {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #fff;
-    
-}
-.sub-titulo2 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #fff;
-    
-}
-
 .sub-titulo3 {
     margin-top: -6px;
     font-size: 20px;
     color: #fff;
     
-}
-
-.sub-titulo4 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #fff;
-    
-}
-
-.s {
-  float: left;
-  margin-right: 10px;
-}
-
-.s2 {
-  float: left;
-  margin-right: 10px;
-}
-
-.s3 {
-  float: left;
-  margin-right: 10px;
-}
-
-.s4 {
-  float: left;
-  margin-left: 10px;
 }
 
 footer {
