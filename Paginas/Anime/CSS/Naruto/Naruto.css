@@ -109,116 +109,45 @@ aside {
   width: 30%;
   background:#15cbce;
   float: left;
+  
 }
+
+p7 {
+    width: 30px;
+    
+}
+
+p4 {
+    margin-left: 45px;
+}
+
+p5 {
+    margin-left: 58px;
+}
+
+p6 {
+    margin-left: 45px;
+}
+
 
 h1 {
   font-size:40px;
 
 }
 
-#DragonBall {
+#naruto {
     width: 150px;
     height: 190px;
     cursor: pointer;
     
     
-}
-
-
-
-#Tsugomomo {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-    
     
 }
-
-
-
-#Overlord {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-
-
-}
-
-#Relife {
-  width: 150px;
-  height: 190px;
-  cursor: pointer;
-  
-}
-
-#Naruto {
-  width: 150px;
-  height: 190px;
-  cursor: pointer;
-  
-}
-
 .sub-titulo {
     margin-top: -6px;
     font-size: 20px;
     color: #1813c1;
-    
 }
-.sub-titulo2 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.sub-titulo3 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.sub-titulo4 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.sub-titulo5 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-
-.s {
-  float: left;
-  margin-right: 10px;
-}
-
-.s2 {
-  float: left;
-  margin-right: 10px;
-}
-
-.s3 {
-  float: left;
-  margin-right: 10px;
-}
-
-.s4 {
-  float: left;
-  margin-left: 10px;
-}
-
-.s5 {
-  float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-
 
 footer {
   background: #000;
@@ -235,12 +164,6 @@ margin-top: 50px;
 
 #logo {
   margin: 20px 0px 0px 200px;
-}
-
-.contador {
-  margin-top: 100px;
-  margin-left: 950px;
-  
 }
 
 @media screen and (max-width: 1000px) {
@@ -268,51 +191,16 @@ width: 100%;
   width: 100%;
 }
 
-
-
-
-#DragonBall {
-    width: 120px;
-    height: 180px;
-    cursor: pointer;
-    
-    
-}
-
-
-
-#Tsugomomo {
-  width: 120px;
-    height: 180px;
-    cursor: pointer;
-    
-    
-}
-
-
-
-#Overlord {
-  width: 120px;
-    height: 180px;
-    cursor: pointer;
-
-
-}
-
-#Relife {
+#naruto {
   width: 120px;
   height: 180px;
-  cursor: pointer;
   
 }
-
-#Naruto {
-  width: 120px;
-  height: 180px;
-  cursor: pointer;
+.sub-titulo {
+    margin-top: -6px;
+    font-size: 18px;
+    color: #1813c1;
+    margin-left: -10px;
 }
 
 }
-
-
-
