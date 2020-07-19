@@ -190,4 +190,15 @@ width: 100%;
   
 }
 
+.left-panel {
+  width: 48%;
+  left: -48%;
+}
+
+.checkbox:checked ~ .menu {
+    left: 48%;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+
 }
