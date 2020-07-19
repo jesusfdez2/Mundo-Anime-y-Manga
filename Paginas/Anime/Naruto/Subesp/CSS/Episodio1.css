@@ -230,7 +230,7 @@ padding: 0px;
 
 
 header {
-  width: 80%;
+  width: 100%;
 }
 
   aside {
@@ -257,7 +257,7 @@ width: 100%;
 }
   
 .kp {
-  width: 100%;
+  width: 80%;
 }
 
 }
