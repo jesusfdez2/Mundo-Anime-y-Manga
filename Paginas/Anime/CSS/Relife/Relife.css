@@ -181,6 +181,7 @@ width: 100%;
 #Relife {
   width: 120px;
   height: 180px;
+  cursor: pointer;
 }
 .sub-titulo3 {
     margin-top: -6px;
