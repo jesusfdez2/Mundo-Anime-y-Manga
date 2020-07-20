@@ -8,7 +8,13 @@ header, .main {
   max-width:950px;
   margin:10px auto;
 }
+.Animes1 {
+    color:#64F01E ;
+}
 
+.Mangas1 {
+  color:#EAE306;
+}
 header nav{
   background:#528ED5;
   overflow: hidden;
@@ -112,49 +118,35 @@ aside {
   
 }
 
-p7 {
-    width: 30px;
-    
-}
-
-p4 {
-    margin-left: 45px;
-}
-
-p5 {
-    margin-left: 58px;
-}
-
-p6 {
-    margin-left: 45px;
-}
-
-
 h1 {
   font-size:40px;
 
 }
 
-#Narutoja {
-    width: 150px;
-    height: 190px;
-    cursor: pointer;
-}
-.sub-titulo {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
+#logo {
+  margin: 20px 0px 0px 200px;
 }
 
-#Narutos {
-    width: 150px;
-    height: 190px;
-    cursor: pointer;
+.boton1 {
+  background: #0004ff;
+  color: #fff;
+display: inline-block;
+font-size: 20px;
+margin: 20px ;
+padding: 10px 0px;
+text-align: center;
+width: 200px;
+text-decoration: none;
+box-shadow: 0px 3px 0px #373c3c;
+border-radius: .5em;
+cursor: pointer;
+transition:background-color 1s
 }
- .narutoj {
-   margin-right: 10px;
-   float: left;
- }
+
+.boton1:hover {
+  background-color: #888
+}
+
 
 
 
@@ -169,10 +161,6 @@ width: 1100px;
 float: left;
 margin-left: 60px;
 margin-top: 50px;
-}
-
-#logo {
-  margin: 20px 0px 0px 200px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -199,17 +187,14 @@ width: 100%;
 .contador {
   width: 100%;
 }
+.menu {
+  top: 53%;
+}
 
-#naruto {
-  width: 120px;
-  height: 180px;
+.boton1 {
+  width: 130px;
   
 }
-.sub-titulo {
-    margin-top: -6px;
-    font-size: 18px;
-    color: #1813c1;
-    margin-left: -10px;
-}
+
 
 }
