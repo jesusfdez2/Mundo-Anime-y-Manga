@@ -116,6 +116,35 @@ h1 {
 
 }
 
+p4 {
+    margin-left: 30px;
+}
+
+p5 {
+    margin-left: 58px;
+}
+
+p6 {
+    margin-left: 45px;
+}
+
+
+#Tsugomomo {
+  width: 150px;
+    height: 190px;
+    cursor: pointer;
+    
+    
+}
+
+.sub-titulo {
+    margin-top: -6px;
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+
 footer {
   background: #000;
   clear: both;
