@@ -109,6 +109,11 @@ aside {
   width: 30%;
   background:#15cbce;
   float: left;
+ 
+}
+
+p5 {
+    width: 30px;
 }
 
 h1 {
@@ -116,125 +121,33 @@ h1 {
 
 }
 
-#DragonBall {
+#LoveLive {
     width: 150px;
     height: 190px;
     cursor: pointer;
     
     
-}
-
-
-
-#Tsugomomo {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-    
     
 }
-
-
-
-#Overlord {
-  width: 150px;
-    height: 190px;
-    cursor: pointer;
-
-
-}
-
-#Relife {
-  width: 150px;
-  height: 190px;
-  cursor: pointer;
-  
-}
-
-#Naruto {
-  width: 150px;
-  height: 190px;
-  cursor: pointer;
-  
-}
-
-#LoveLive {
-  width: 150px;
-  height: 190px;
-  cursor: pointer;
-  
-}
-
 .sub-titulo {
     margin-top: -6px;
     font-size: 20px;
-    color: #1813c1;
-    
-}
-.sub-titulo2 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.sub-titulo3 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.sub-titulo4 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
-    
-}
-
-.sub-titulo5 {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #1813c1;
+    color: #b03a2e;
     
 }
 
 
-.s {
-  float: left;
-  margin-right: 10px;
+p4 {
+  margin-left: 30px;
 }
 
-.s2 {
-  float: left;
-  margin-right: 10px;
+p5 {
+  margin-left: 58px;
 }
 
-.s3 {
-  float: left;
-  margin-right: 10px;
-  
+p6 {
+  margin-left: 45px;
 }
-
-.s4 {
-  float: left;
-  margin-left: 10px;
-  
-}
-
-.s5 {
-  float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-
-.s6 {
-  float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-
-
 
 
 footer {
@@ -252,12 +165,6 @@ margin-top: 50px;
 
 #logo {
   margin: 20px 0px 0px 200px;
-}
-
-.contador {
-  margin-top: 100px;
-  margin-left: 950px;
-  
 }
 
 @media screen and (max-width: 1000px) {
@@ -285,58 +192,14 @@ width: 100%;
   width: 100%;
 }
 
-
-
-
-#DragonBall {
-    width: 120px;
-    height: 180px;
-    cursor: pointer;
-    
-    
-}
-
-
-
-#Tsugomomo {
-  width: 120px;
-    height: 180px;
-    cursor: pointer;
-    
-    
-}
-
-
-
-#Overlord {
-  width: 120px;
-    height: 180px;
-    cursor: pointer;
-
-
-}
-
 #Relife {
   width: 120px;
   height: 180px;
   cursor: pointer;
-  
 }
-
-#Naruto {
-  width: 120px;
-  height: 180px;
-  cursor: pointer;
+.sub-titulo3 {
+    margin-top: -6px;
+    font-size: 18px;
+    
 }
-
-#LoveLive {
-  width: 120px;
-  height: 180px;
-  cursor: pointer;
 }
-
-
-}
-
-
-
