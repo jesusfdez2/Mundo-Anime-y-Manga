@@ -1,6 +1,5 @@
 body{
-   background:  #1b1919;
-;
+   background: #1b1919;
   font-size: 20px;
 }
 
@@ -61,8 +60,7 @@ header nav ul li1 a:hover{
     /*opera*/
     background: -o-linear-gradient(black, black, black);
     /*estandar*/
-    background: linear-gradient(black, black, black);
-     position: absolute;
+      position: absolute;
     top: 0;
     left: -40%;
     display: flex;
@@ -81,7 +79,7 @@ header nav ul li1 a:hover{
 }
 
 ul a {
-    color: #fff;
+    color: #F7F7F7;
     text-decoration: none;
 }
 
@@ -113,129 +111,40 @@ aside {
   color: #fff;
 }
 
+p5 {
+    width: 30px;
+}
+
 h1 {
   font-size:40px;
 
 }
 
-#DragonBall {
+#LoveLive {
   width: 150px;
   height: 190px;
   cursor: pointer;
   
   
-}
-
-
-
-#Tsugomomo {
-width: 150px;
-  height: 190px;
-  cursor: pointer;
-  
   
 }
-
-
-
-#Overlord {
-width: 150px;
-  height: 190px;
-  cursor: pointer;
-
-
-}
-
-#Relife {
-width: 150px;
-height: 190px;
-cursor: pointer;
-
-}
-
-#Naruto {
-width: 150px;
-height: 190px;
-cursor: pointer;
-
-}
-
-#LoveLive {
-width: 150px;
-height: 190px;
-cursor: pointer;
-
-}
-
 .sub-titulo {
   margin-top: -6px;
   font-size: 20px;
   color: #fff;
   
 }
-.sub-titulo2 {
-  margin-top: -6px;
-  font-size: 20px;
-  color: #fff;
-  
+p4 {
+  margin-left: 30px;
 }
 
-.sub-titulo3 {
-  margin-top: -6px;
-  font-size: 20px;
-  color: #fff;
-  
+p5 {
+  margin-left: 58px;
 }
 
-.sub-titulo4 {
-  margin-top: -6px;
-  font-size: 20px;
-  color: #fff;
-  
+p6 {
+  margin-left: 45px;
 }
-
-.sub-titulo5 {
-  margin-top: -6px;
-  font-size: 20px;
-  color: #fff;
-  
-}
-
-
-.s {
-float: left;
-margin-right: 10px;
-}
-
-.s2 {
-float: left;
-margin-right: 10px;
-}
-
-.s3 {
-float: left;
-margin-right: 10px;
-
-}
-
-.s4 {
-float: left;
-margin-left: 10px;
-
-}
-
-.s5 {
-float: left;
-margin-right: 10px;
-margin-top: 10px;
-}
-
-.s6 {
-float: left;
-margin-right: 10px;
-margin-top: 10px;
-}
-
 
 footer {
   background: #000;
