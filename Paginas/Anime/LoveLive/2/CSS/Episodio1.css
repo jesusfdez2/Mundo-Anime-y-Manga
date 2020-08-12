@@ -38,7 +38,7 @@ header nav ul li1 a:hover{
     height: 2.7rem;
     background: #2EE3AD;
     border-radius: 0.5rem;
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 5%;
     font-family: sans-serif;
@@ -83,6 +83,7 @@ header nav ul li1 a:hover{
 ul a {
     color: #F7F7F7;
     text-decoration: none;
+    
 }
 
 li {
@@ -109,51 +110,98 @@ aside {
   width: 30%;
   background:#15cbce;
   float: left;
- 
 }
 
-p5 {
-    width: 30px;
+.boton1 {
+  background: black;
+  color: #fff;
+display: inline-block;
+font-size: 20px;
+margin-right: 20px;
+padding: 10px 0px;
+text-align: center;
+width: 200px;
+text-decoration: none;
+box-shadow: 0px 3px 0px #373c3c;
+border-radius: .5em;
+cursor: pointer;
+transition:background-color 1s
 }
 
-h1 {
-  font-size:40px;
+.boton1:hover {
+  background-color: #888
+}
+
+.boton2 {
+  background: black;
+  color: #fff;
+display: inline-block;
+font-size: 20px;
+margin-left: 220px;
+margin-top: 30px;
+padding: 10px 0px;
+text-align: center;
+width: 200px;
+text-decoration: none;
+box-shadow: 0px 3px 0px #373c3c;
+border-radius: .5em;
+cursor: pointer;
+transition: background-color 1s
 
 }
 
-#LoveLive {
-    width: 150px;
-    height: 190px;
-    cursor: pointer;
-    
-    
-    
+.boton2:hover {
+  background-color: #888
 }
-.sub-titulo {
-    margin-top: -6px;
-    font-size: 20px;
-    color: #b03a2e;
-    
+  
+.O1 {
+ background: #888;
+ /*background: #ddd4d4;*/
+  color: black;
+font-size: 20px;
+margin-left: 0px;
+margin-top: 10px;
+margin-bottom: 0px;
+padding: 10px 0px;
+text-align: center;
+width: 100px;
+display: inline-block;
+text-decoration: none;
+box-shadow: 0px 3px 0px #373c3c;
+cursor: pointer;
+transition: background-color 1s
 }
-
-.s1 {
-  float: left;
-  margin-right: 10px;
-}
-
-
-p4 {
-  margin-left: 30px;
-}
-
-p5 {
-  margin-left: 58px;
+.O1:hover {
+  background-color: #888
 }
 
-p6 {
-  margin-left: 45px;
+.O2 {
+  background: #ddd4d4;
+ /*background: #ddd4d4;*/
+  color: black;
+font-size: 20px;
+margin-left: 0px;
+margin-top: 10px;
+margin-bottom: 0px;
+padding: 10px 0px;
+text-align: center;
+width: 100px;
+display: inline-block;
+text-decoration: none;
+box-shadow: 0px 3px 0px #373c3c;
+cursor: pointer;
+transition: background-color 1s
 }
 
+.O2:hover {
+  background-color: #888
+}
+  
+.none {
+  margin-left: 220px;
+  margin-top: 20px;
+  background: black;
+}
 
 footer {
   background: #000;
@@ -197,15 +245,20 @@ width: 100%;
   width: 100%;
 }
 
-#LoveLive {
-  width: 120px;
-  height: 180px;
-  cursor: pointer;
+.boton1 {
+  width: 130px;
+  margin: 0;
 }
-.sub-titulo {
-    margin-top: -6px;
-    font-size: 18px;
-    
-    
+.boton2 {
+  width: 130px;
+  margin: 0;
+  
+
 }
+  
+.kp {
+  width: 100%;
 }
+
+}
+

@@ -109,50 +109,44 @@ aside {
   width: 30%;
   background:#15cbce;
   float: left;
- 
+  
+}
+
+p7 {
+    width: 30px;
+    
+}
+
+p4 {
+    margin-left: 45px;
 }
 
 p5 {
-    width: 30px;
+    margin-left: 58px;
 }
+
+p6 {
+    margin-left: 45px;
+}
+
 
 h1 {
   font-size:40px;
 
 }
 
-#LoveLive {
+#OnePiece {
     width: 150px;
     height: 190px;
     cursor: pointer;
-    
-    
-    
 }
 .sub-titulo {
     margin-top: -6px;
     font-size: 20px;
-    color: #b03a2e;
-    
-}
-
-.s1 {
-  float: left;
-  margin-right: 10px;
+    color: #1813c1;
 }
 
 
-p4 {
-  margin-left: 30px;
-}
-
-p5 {
-  margin-left: 58px;
-}
-
-p6 {
-  margin-left: 45px;
-}
 
 
 footer {
@@ -197,15 +191,16 @@ width: 100%;
   width: 100%;
 }
 
-#LoveLive {
+#OnePiece {
   width: 120px;
   height: 180px;
-  cursor: pointer;
+  
 }
 .sub-titulo {
     margin-top: -6px;
     font-size: 18px;
-    
-    
+    color: #1813c1;
+    margin-left: -10px;
 }
+
 }
