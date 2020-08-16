@@ -39,7 +39,7 @@ header nav ul li1 a:hover{
     height: 2.7rem;
     background: #322e2e;
     border-radius: 0.5rem;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 5%;
     font-family: sans-serif;
@@ -62,7 +62,7 @@ header nav ul li1 a:hover{
     background: -o-linear-gradient(black, black, black);
     /*estandar*/
     background: linear-gradient(black, black, black);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -40%;
     display: flex;
