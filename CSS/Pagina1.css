@@ -41,7 +41,7 @@ header nav ul li1 a:hover{
     height: 2.7rem;
     background: #2EE3AD;
     border-radius: 0.5rem;
-    position: absolute;
+    
     top: 50%;
     left: 5%;
     font-family: sans-serif;
@@ -49,12 +49,13 @@ header nav ul li1 a:hover{
     color: white;
     text-align: center;
     transition: left 0.7s;
+    position: fixed;
 }
 
 .checkbox:checked ~ .menu {
     left: 40%;
     border-radius: 0 0.5rem 0.5rem 0;
-    position: absolute;
+    position: fixed;
 }
 
 .left-panel {
@@ -66,13 +67,14 @@ header nav ul li1 a:hover{
     background: -o-linear-gradient(#54BBC7, #2EE3AD, #9191f2);
     /*estandar*/
     background: linear-gradient(#54BBC7, #2EE3AD, #9191f2);
-    position: absolute;
+    
     top: 0;
     left: -40%;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: left 0.4s;
+    position: fixed;
 }
 
 .checkbox:checked ~ .left-panel {
@@ -166,6 +168,7 @@ header {
 
   aside {
     width:100%;
+    margin-top: 10px;
   }
 footer {
 margin-left: 0px;
@@ -174,6 +177,7 @@ width: 100%;
 
 .contador {
   width: 100%;
+  
 }
 .menu {
   top: 53%;
