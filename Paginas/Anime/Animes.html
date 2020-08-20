@@ -5,6 +5,8 @@
           <link rel="icon" type="image/jpg" href="../../Imagenes/favicon.png" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <link rel="stylesheet" type="text/css" href="CSS/Animes.css" />
+          <script src="js/jquery.js"></script>
+          <script src="js/jquery.dataTables.min.js"></script>
           <meta name="description" content="En esta página encontraréis todo tipo de anime/Manga.
           A medida que pase el tiempo habrá más contenido." />
           </head>
@@ -12,7 +14,7 @@
        <div>
         <img id="logo" src="../../Imagenes/favicon.png" width="100" alt="Logotipo">
      </div>
-        
+         
         <hr/>
 <header>
     <div class="Inicio">
@@ -26,10 +28,78 @@
         </ul>
     </nav>
 </div>
+
 </header>
  <section class="main">
         <section class="articles">
             <article>
+                <div class="buscador">
+                 
+                    <section class="webdesigntuts-workshop">
+                        <form action="" method="">		    
+                            <input type="search" id="input-search" placeholder="Buscar Anime aquí">
+                                        
+                            <button>Search</button>
+                        </form>
+                    </section>
+                    <div class="content-search">
+                        <div class="content-table">
+                            <table id="table">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#">Dragon Ball Latino</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a href="#">Love Live!</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a href="#">Love Live! 2</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a href="#">Naruto</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a href="#">Naruto Castellano</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a href="#">One Piece Castellano</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a href="#">Relife Castellano</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a href="#">Tsugomomo</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a href="#">Overlord</a></td>
+                                    </tr>
+                                    
+                                  
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    
+                    <script src="js/search.js"></script>
+                    
+                    </div>   
+  <section class="anime">
 <section class="s">
 <a title="Dragon Ball Latino" href="DragonBall/DragonBall.html"><img id="DragonBall" src="Imagenes/Dragon Ball.jpg" alt="DragonBall Latino"/></a>
 
@@ -55,14 +125,14 @@
     </section>
     
     </section>
-<!--
+
     <section class="s7">
         <a title="OnePiece" href="OnePiece/OnePiece.html"><img id="OnePiece" src="Imagenes/OnePiece.jpg"></a>
         
         <section class="sub-titulo6">
                       OnePiece
         </section>
-        </section>-->
+        </section>
 
     <section class="s4">
         <a title="Relife" href="Relife/Relife.html"><img id="Relife" src="Imagenes/Relife.jpg"></a>
@@ -90,7 +160,7 @@
 </section>
 </section>
 
-
+</section>
 
 
 </section>
@@ -98,6 +168,7 @@
 </article>
 <aside>
     Podéis recomendar un anime y/o manga en las respectivas redes sociales <br>
+    El buscador aún está en fase BETA.
     
 </aside>
 <br>
