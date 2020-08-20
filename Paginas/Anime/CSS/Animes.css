@@ -298,7 +298,7 @@ margin-top: 50px;
 	height: 1px;
 	
 	margin: 0 0 0 -400px;
-	position: absolute;
+	position: relative;
 	width: 800px;
 }
 
