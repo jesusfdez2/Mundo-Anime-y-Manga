@@ -1,0 +1,653 @@
+body{
+   background: #e6e6e6;
+  font-size: 20px;
+}
+/**Buscador**/
+
+
+/**Fin del buscador**/
+
+header, .main {
+  width:90%;
+  max-width:950px;
+  margin:10px auto;
+}
+
+header nav{
+  background:#528ED5;
+  overflow: hidden;
+}
+
+header nav ul{
+  list-style:none ;
+}
+
+header nav ul li1 {
+  float: left;
+}
+
+header nav ul li1 a {
+  padding: 8px 10px;
+  display:block;
+  color:#fff;
+  text-decoration:none;
+}
+
+header nav ul li1 a:hover{
+  background:#75Acec;
+}
+
+
+.menu {
+  width: 2.2rem;
+  height: 2.7rem;
+  background: #2EE3AD;
+  border-radius: 0.5rem;
+  
+  top: 50%;
+  left: 5%;
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  transition: left 0.7s;
+  position: fixed;
+}
+
+.checkbox:checked ~ .menu {
+  left: 40%;
+  border-radius: 0 0.5rem 0.5rem 0;
+  position: fixed;
+}
+
+.left-panel {
+  width: 40%;
+  height: 100%;
+  /*safari*/
+  background:  -webkit-linear-gradient(#54BBC7, #2EE3AD, #9191f2);
+  /*opera*/
+  background: -o-linear-gradient(#54BBC7, #2EE3AD, #9191f2);
+  /*estandar*/
+  background: linear-gradient(#54BBC7, #2EE3AD, #9191f2);
+  
+  top: 0;
+  left: -40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: left 0.4s;
+  position: fixed;
+}
+
+.checkbox:checked ~ .left-panel {
+    left: 0;
+}
+
+.checkbox {
+    display: none;
+    
+}
+
+ul a {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 0.5rem;
+    margin: 1rem 0;
+}
+
+li:hover {
+    color: white;
+    border: solid white;
+    border-width: 0 0.1rem;
+}
+.main .articles {
+  width: 68.5%;
+  background: #fff;
+  float: left;
+  margin-right: 1.5%;
+}
+
+aside {
+  width: 30%;
+  background:#15cbce;
+  float: left;
+}
+
+h1 {
+  font-size:40px;
+
+}
+
+#DragonBall {
+    width: 150px;
+    height: 190px;
+    cursor: pointer;
+    
+    
+}
+
+
+
+#Tsugomomo {
+  width: 150px;
+    height: 190px;
+    cursor: pointer;
+    
+    
+}
+
+
+
+#Overlord {
+  width: 150px;
+    height: 190px;
+    cursor: pointer;
+
+
+}
+
+#Relife {
+  width: 150px;
+  height: 190px;
+  cursor: pointer;
+  
+}
+
+#Naruto {
+  width: 150px;
+  height: 190px;
+  cursor: pointer;
+  
+}
+
+#LoveLive {
+  width: 150px;
+  height: 190px;
+  cursor: pointer;
+  
+}
+
+#OnePiece{
+  width: 150px;
+  height: 190px;
+  cursor: pointer;
+  
+}
+
+
+.sub-titulo {
+    margin-top: -6px;
+    font-size: 20px;
+    color: #1813c1;
+    
+}
+.sub-titulo2 {
+    margin-top: -6px;
+    font-size: 20px;
+    color: #1813c1;
+    
+}
+
+.sub-titulo3 {
+    margin-top: -6px;
+    font-size: 20px;
+    color: #1813c1;
+    
+}
+
+.sub-titulo4 {
+    margin-top: -6px;
+    font-size: 20px;
+    color: #1813c1;
+    
+}
+
+.sub-titulo5 {
+    margin-top: -6px;
+    font-size: 20px;
+    color: #1813c1;
+    
+}
+
+.sub-titulo6 {
+  margin-top: -6px;
+  font-size: 20px;
+  color: #1813c1;
+  
+}
+
+
+.s {
+  float: left;
+  margin-right: 10px;
+}
+
+.s2 {
+  float: left;
+  margin-right: 10px;
+}
+
+.s3 {
+  float: left;
+  margin-right: 10px;
+  
+}
+
+.s4 {
+  float: left;
+  margin-left: 10px;
+  
+}
+
+.s5 {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.s6 {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.s7 {
+  float: left;
+  margin-right: 10px;
+  
+}
+
+
+
+footer{
+  background: #000;
+  clear: both;
+  padding: 1px 0px;
+  margin:auto;
+  text-align: center;
+color: #fff;
+width: 1100px;
+float: left;
+margin-left: 60px;
+margin-top: 50px;
+}
+
+#logo {
+  margin: 20px 0px 0px 200px;
+}
+
+.contador {
+  margin-top: 100px;
+  margin-left: 950px;
+  
+}
+
+
+
+
+.webdesigntuts-workshop:before,
+.webdesigntuts-workshop:after {
+	
+	display: block;	
+	height: 1px;
+	
+	margin: 0 0 0 -400px;
+	position: relative;
+	width: 800px;
+}
+
+
+.webdesigntuts-workshop form {
+	background: #000;
+	
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 1px #272727;
+	display: inline-block;
+	font-size: 0px;
+	
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+}
+.webdesigntuts-workshop:before {
+	background: #444;
+	background: -webkit-linear-gradient(left, #151515, #444, #151515);
+	background: -moz-linear-gradient(left, #151515, #444, #151515);
+	background: -o-linear-gradient(left, #151515, #444, #151515);
+	background: -ms-linear-gradient(left, #151515, #444, #151515);
+	background: linear-gradient(left, #151515, #444, #151515);
+	top: 192px;
+}
+
+.webdesigntuts-workshop:after {
+	background: #000;
+	background: -webkit-linear-gradient(left, #151515, #000, #151515);	
+	background: -moz-linear-gradient(left, #151515, #000, #151515);	
+	background: -o-linear-gradient(left, #151515, #000, #151515);	
+	background: -ms-linear-gradient(left, #151515, #000, #151515);	
+	background: linear-gradient(left, #151515, #000, #151515);	
+	top: 191px;
+}
+
+.webdesigntuts-workshop input {
+	background: #222;
+	background: -webkit-linear-gradient(#333, #222);	
+	background: -moz-linear-gradient(#333, #222);	
+	background: -o-linear-gradient(#333, #222);	
+	background: -ms-linear-gradient(#333, #222);	
+	background: linear-gradient(#333, #222);	
+	border: 1px solid #444;
+	border-radius: 5px 0 0 5px;
+	box-shadow: 0 2px 0 #000;
+	color: #888;
+	display: block;
+	float: left;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 200px;
+}
+
+.ie .webdesigntuts-workshop input {
+	line-height: 40px;
+}
+
+.webdesigntuts-workshop input::-webkit-input-placeholder {
+   color: #888;
+}
+
+.webdesigntuts-workshop input:-moz-placeholder {
+   color: #888;
+}
+
+.webdesigntuts-workshop input:focus {
+	-webkit-animation: glow 800ms ease-out infinite alternate;
+	-moz-animation: glow 800ms ease-out infinite alternate;
+	-o-animation: glow 800ms ease-out infinite alternate;
+	-ms-animation: glow 800ms ease-out infinite alternate;
+	animation: glow 800ms ease-out infinite alternate;
+	background: #222922;
+	background: -webkit-linear-gradient(#333933, #222922);
+	background: -moz-linear-gradient(#333933, #222922);
+	background: -o-linear-gradient(#333933, #222922);
+	background: -ms-linear-gradient(#333933, #222922);
+	background: linear-gradient(#333933, #222922);
+	border-color: #393;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #efe;
+	outline: none;
+}
+
+.webdesigntuts-workshop input:focus::-webkit-input-placeholder { 
+	color: #efe;
+}
+
+.webdesigntuts-workshop input:focus:-moz-placeholder {
+	color: #efe;
+}
+
+.webdesigntuts-workshop button {
+	background: #222;
+	background: -webkit-linear-gradient(#333, #222);
+	background: -moz-linear-gradient(#333, #222);
+	background: -o-linear-gradient(#333, #222);
+	background: -ms-linear-gradient(#333, #222);
+	background: linear-gradient(#333, #222);
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	box-sizing: content-box;
+	border: 1px solid #444;
+	border-left-color: #000;
+	border-radius: 0 5px 5px 0;
+	box-shadow: 0 2px 0 #000;
+	color: #fff;
+	display: block;
+	float: left;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-shadow: 0 -1px 0 #000;
+	width: 80px;
+}	
+
+.webdesigntuts-workshop button:hover,
+.webdesigntuts-workshop button:focus {
+	background: #292929;
+	background: -webkit-linear-gradient(#393939, #292929);	
+	background: -moz-linear-gradient(#393939, #292929);	
+	background: -o-linear-gradient(#393939, #292929);	
+	background: -ms-linear-gradient(#393939, #292929);	
+	background: linear-gradient(#393939, #292929);
+	color: #5f5;
+	outline: none;
+}
+
+.webdesigntuts-workshop button:active {
+	background: #292929;
+	background: -webkit-linear-gradient(#393939, #292929);
+	background: -moz-linear-gradient(#393939, #292929);
+	background: -o-linear-gradient(#393939, #292929);
+	background: -ms-linear-gradient(#393939, #292929);
+	background: linear-gradient(#393939, #292929);
+	box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+	top: 1px;
+}
+@-webkit-keyframes glow {
+    0% {
+		border-color: #393;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #6f6;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@-moz-keyframes glow {
+    0% {
+		border-color: #393;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #6f6;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@-o-keyframes glow {
+    0% {
+		border-color: #393;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #6f6;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@-ms-keyframes glow {
+    0% {
+		border-color: #393;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #6f6;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@keyframes glow {
+    0% {
+		border-color: #393;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #6f6;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+.content-table{
+  width: 80%;
+  max-height: 200px;
+  height: auto;
+    background: rgba(0,0,0,0.3);
+    margin-left: 10px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    
+}
+.content-table table{
+  width: 100%;
+}
+.content-search{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin-left: 0px;
+    
+    
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}
+
+tbody tr td a{
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+tbody tr td a:hover{
+  background: rgba(0,0,0,0.3);
+}
+
+
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+    
+}
+#input-search{
+    
+    font-size: 20px;
+	text-indent: 10px;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	line-height: 40px;
+  margin: 0;
+  text-align: center;
+	padding: 0;
+	position: relative;
+	text-shadow: 0 -1px 0 #000;
+	width: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+.main .articles {
+  width:100%;
+  margin: 0px;
+float: left;
+padding: 0px;
+}
+
+
+header {
+  width: 100%;
+}
+
+  aside {
+    width:100%;
+  }
+footer {
+margin-left: 0px;
+width: 100%;
+}
+
+.contador {
+  width: 100%;
+}
+
+
+
+
+#DragonBall {
+    width: 120px;
+    height: 180px;
+    cursor: pointer;
+    
+    
+}
+
+
+
+#Tsugomomo {
+  width: 120px;
+    height: 180px;
+    cursor: pointer;
+    
+    
+}
+
+
+
+#Overlord {
+  width: 120px;
+    height: 180px;
+    cursor: pointer;
+
+
+}
+
+#Relife {
+  width: 120px;
+  height: 180px;
+  cursor: pointer;
+  
+}
+
+#Naruto {
+  width: 120px;
+  height: 180px;
+  cursor: pointer;
+}
+
+#LoveLive {
+  width: 120px;
+  height: 180px;
+  cursor: pointer;
+}
+
+#OnePiece {
+  width: 120px;
+  height: 180px;
+  cursor: pointer;
+}
+
+
+#input-search{
+  width: 150px;
+  height: 42px;
+}
+}
+
+
+
