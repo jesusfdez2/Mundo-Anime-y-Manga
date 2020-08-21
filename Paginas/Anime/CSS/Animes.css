@@ -527,14 +527,14 @@ margin-top: 50px;
   width: 100%;
 }
 .content-search{
-    width: 350px;
+    width: 400px;
     height: 200px;
     position: relative;
     margin-left: 0px;
     
     
     left: 0;
-    background: rgba(0,0,0,0.3);
+    
     display: none;
 }
 
