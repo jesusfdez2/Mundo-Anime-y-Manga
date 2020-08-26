@@ -1,0 +1,142 @@
+body {
+  
+  background: url(../Imagenes/Fondo.jpg) no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+
+  
+}
+.main .articles {
+  width: 68.5%;
+  margin-top: 200px;
+  margin-left: 350px;
+  position: relative;
+  
+  margin-right: 1.5%;
+}
+
+.tooltip {
+	font-weight: normal;
+	color: #3c48e5;
+	text-decoration: none;
+	position: relative;
+}
+
+.tooltip:hover {
+	text-decoration: underline;
+}
+
+.tooltip:hover .tooltip-box {
+	display: inline-block;
+}
+
+.tooltip-box {
+	display: none;
+	position: absolute;
+	background: #000;
+	line-height: 20px;
+	z-index: 500;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	left: 0;
+	right: 0;
+	bottom: 30px;
+}
+
+.tooltip-box::after {
+	content: "";
+	display: block;
+	border-top: 7px solid #000;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	position: absolute;
+	bottom: -7px;	
+	left: calc(50% - 7px);
+}
+
+.Waifu {
+  width: 500px;
+  height: 350px;
+  
+
+}
+@media screen and (max-width: 1000px) {
+    body {
+width: 100%;
+height: 100%;
+
+background: url(../Imagenes/Fondo4.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+      
+    }
+
+
+
+
+.main .articles {
+  
+  margin: 0px;
+padding: 0px;
+position: absolute;
+}
+
+
+header {
+  width: 100%;
+}
+
+ 
+footer {
+margin-left: 0px;
+width: 100%;
+}
+
+.contador {
+  width: 100%;
+  
+}
+.menu {
+  top: 53%;
+}
+
+.Waifu {
+    width: 150px;
+    height: 190px;
+}
+
+}
+@media screen and (min-width: 750px) {
+  body {
+    background: url(../Imagenes/Fondo3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;}
+.main .articles {
+width: 68.5%;
+  margin-top: 200px;
+  margin-left: 350px;
+  position: relative;
+  
+  margin-right: 1.5%;
+
+  }
+  .Waifu {
+  width: 200px;
+  height: 320px;
+  
+
+}
+}

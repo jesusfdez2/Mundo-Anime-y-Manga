@@ -128,6 +128,24 @@ h1 {
 
 }
 
+.icon-home{
+  margin-right: 2px;
+  
+}
+
+
+.icon-info-with-circle{
+  margin-right: 5px;
+  color: #fff;
+}
+.copy:hover{
+  color: #000;
+}
+
+.copy:visited{
+  color: #000;
+}
+
 footer {
   background: #000;
   clear: both;

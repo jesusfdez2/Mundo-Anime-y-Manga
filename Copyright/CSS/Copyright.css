@@ -1,0 +1,151 @@
+body{
+   background: #e6e6e6;
+  font-size: 20px;
+}
+
+header, .main {
+  width:90%;
+  max-width:950px;
+  margin:10px auto;
+}
+
+a { 
+  margin-left: 10px;
+  color: blue;
+}
+ 
+h1 {
+  font-size: 30px;
+}
+
+p1 {
+  color: red;
+}
+
+.tooltip {
+	font-weight: normal;
+	color: #3c48e5;
+	text-decoration: none;
+	position: relative;
+}
+
+.tooltip:hover {
+	text-decoration: underline;
+}
+
+.tooltip:hover .tooltip-box {
+	display: inline-block;
+}
+
+.tooltip-box {
+	display: none;
+	position: absolute;
+	background: #000;
+	line-height: 20px;
+	z-index: 500;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	left: 0;
+	right: 0;
+	bottom: 30px;
+}
+
+.tooltip-box::after {
+	content: "";
+	display: block;
+	border-top: 7px solid #000;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	position: absolute;
+	bottom: -7px;	
+	left: calc(50% - 7px);
+}
+
+.Waifu{
+  width: 150px;
+  margin-left: 10px;
+}
+
+
+.Miniatura {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.Musica {
+  width: 150px;
+  margin-left: 10px;
+}
+
+
+
+.main .articles {
+  width: 68.5%;
+  background: #fff;
+  float: left;
+  margin-right: 1.5%;
+}
+
+
+
+footer {
+  background: #000;
+  clear: both;
+  padding: 1px 0px;
+  margin:auto;
+  text-align: center;
+color: #fff;
+width: 1100px;
+float: left;
+margin-left: 60px;
+margin-top: 50px;
+}
+
+#logo {
+  margin: 20px 0px 0px 200px;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+.main .articles {
+  width:100%;
+  margin: 0px;
+float: left;
+padding: 0px;
+}
+
+
+header {
+  width: 100%;
+}
+
+  aside {
+    width:100%;
+    margin-top: 10px;
+  }
+footer {
+margin-left: 0px;
+width: 100%;
+}
+
+.contador {
+  width: 100%;
+  
+}
+.menu {
+  top: 53%;
+}
+
+
+
+}
