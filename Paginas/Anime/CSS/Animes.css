@@ -37,6 +37,18 @@ header nav ul li1 a:hover{
   background:#75Acec;
 }
 
+.icon-info-with-circle{
+  margin-right: 5px;
+  color: #fff;
+}
+.copy:hover{
+  color: #000;
+}
+
+.copy:visited{
+  color: #000;
+}
+
 
 .menu {
   width: 2.2rem;
@@ -189,6 +201,13 @@ h1 {
   
 }
 
+#Musica{
+  width: 150px;
+  height: 190px;
+  cursor: pointer;
+  
+}
+
 
 .sub-titulo {
     margin-top: -6px;
@@ -271,6 +290,13 @@ h1 {
   margin-right: 10px;
   
 }
+
+.s8 {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 
 
 
@@ -646,6 +672,12 @@ width: 100%;
 }
 
 #OnePiece {
+  width: 120px;
+  height: 180px;
+  cursor: pointer;
+}
+
+#Musica {
   width: 120px;
   height: 180px;
   cursor: pointer;
