@@ -8,17 +8,12 @@ header, .main {
   max-width:950px;
   margin:10px auto;
 }
-.Animes1 {
-    color:#64F01E ;
-}
 
-.Mangas1 {
-  color:#EAE306;
-}
 header nav{
   background:#528ED5;
   overflow: hidden;
 }
+
 
 header nav ul{
   list-style:none ;
@@ -151,6 +146,10 @@ transition:background-color 1s
   background-color: #888
 }
 
+.boton1:visited{
+  background:blue;
+  
+}
 
 
 
