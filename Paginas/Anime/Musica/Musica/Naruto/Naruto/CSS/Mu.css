@@ -128,11 +128,11 @@ h1 {
 }
 
 .boton1 {
-  background: #0004ff;
+  background: black;
   color: #fff;
 display: inline-block;
 font-size: 20px;
-margin: 20px ;
+margin-right: 20px;
 padding: 10px 0px;
 text-align: center;
 width: 200px;
@@ -146,7 +146,6 @@ transition:background-color 1s
 .boton1:hover {
   background-color: #888
 }
-
 
 
 
@@ -187,13 +186,17 @@ width: 100%;
 .contador {
   width: 100%;
 }
-li2nu {
+.menu {
   top: 53%;
 }
 
 .boton1 {
   width: 130px;
   
+}
+
+.kp {
+  width: 100%;
 }
 
 
