@@ -1,12 +1,140 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 body{
    background: #e6e6e6;
   font-size: 20px;
+  transition: .4s ease all;
 }
-/**Buscador**/
 
 
-/**Fin del buscador**/
+body.dark{
+   background: #1b1919
+}
 
+body.dark header nav{
+  background:#0a0909;
+  
+}
+body.dark header nav ul li1 a {
+  color:#fff;
+}
+
+body.dark header nav ul li1 a:hover{
+  background:#1b1919;
+}
+
+body.dark .menu {
+  background: #322e2e;
+  color:white ;
+}
+
+body.dark .left-panel {
+  background:  -webkit-linear-gradient(black, black, black);
+  /*opera*/
+  background: -o-linear-gradient(black, black, black);
+  /*estandar*/
+  background: linear-gradient(black, black, black);
+}
+
+body.dark li:hover {
+    color: grey;
+    border: solid grey;
+    border-width: 0 0.1rem;
+}
+
+body.dark .main .articles {
+  background: #221f1f;
+  color: #fff;
+}
+
+body.dark aside {
+  background:#222020;
+  color: #fff;
+}
+
+body.dark .sub-titulo{ 
+  color: #fff;
+}
+body.dark .sub-titulo1{ 
+  color: #fff;
+}
+body.dark .sub-titulo2{ 
+  color: #fff;
+}
+body.dark .sub-titulo3{ 
+  color: #fff;
+}
+body.dark .sub-titulo4{ 
+  color: #fff;
+}
+body.dark .sub-titulo5{ 
+  color: #fff;
+}
+body.dark .sub-titulo6{ 
+  color: #fff;
+}
+
+.switch{
+  background: #343D5B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+}
+
+.switch::after{
+content:"";
+display: block;
+width: 30px;
+height: 30px;
+position: absolute;
+background: #F1F1F1;
+top: 0;
+left: 0;
+right: unset;
+border-radius: 100px;
+transition: .4s ease all;
+box-shadow: 0px 0px 2px 2px rgba(0,0,0.2); 
+
+}
+
+.switch.active{
+  background: orange;
+  color: #000;
+
+}
+
+
+.switch.active::after{
+  right: 0;
+  left: unset;
+}
+
+.switchs{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
+
+
+body.dark.anime .anime{
+  margin-top: 86px;
+}
+
+body.anime .anime {
+  margin-top: 86px;
+}
+.menu.actives{
+  left: 5%;
+}
 header, .main {
   width:90%;
   max-width:950px;
@@ -55,7 +183,6 @@ header nav ul li1 a:hover{
   height: 2.7rem;
   background: #2EE3AD;
   border-radius: 0.5rem;
-  
   top: 50%;
   left: 5%;
   font-family: sans-serif;
@@ -64,6 +191,7 @@ header nav ul li1 a:hover{
   text-align: center;
   transition: left 0.7s;
   position: fixed;
+  z-index: 2;
 }
 
 .checkbox:checked ~ .menu {
@@ -81,7 +209,7 @@ header nav ul li1 a:hover{
   background: -o-linear-gradient(#54BBC7, #2EE3AD, #9191f2);
   /*estandar*/
   background: linear-gradient(#54BBC7, #2EE3AD, #9191f2);
-  
+  z-index: 30;
   top: 0;
   left: -40%;
   display: flex;
@@ -135,12 +263,13 @@ h1 {
   font-size:40px;
 
 }
-/**Buscador Imagenes**/
-
 #IS{
   width: 70px;
   height: 90px;
 }
+
+/**Buscador Imagenes**/
+
 
 
 /**Fin Buscador Imagenes**/
@@ -251,6 +380,7 @@ h1 {
 }
 
 
+
 .s {
   float: left;
   margin-right: 10px;
@@ -269,7 +399,9 @@ h1 {
 
 .s4 {
   float: left;
-  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+
   
 }
 
@@ -587,7 +719,7 @@ tbody tr td a:hover{
 	font-family: 'Cabin', helvetica, arial, sans-serif;
 	font-size: 13px;
 	font-weight: 400;
-	height: 40px;
+	height: 42px;
 	line-height: 40px;
   margin: 0;
   text-align: center;
@@ -595,6 +727,15 @@ tbody tr td a:hover{
 	position: relative;
 	text-shadow: 0 -1px 0 #000;
 	width: 200px;
+}
+
+.buscador2{
+  display: none;
+
+}
+
+.buscador {
+  display: inline;
 }
 
 @media screen and (max-width: 1000px) {
@@ -618,11 +759,23 @@ margin-left: 0px;
 width: 100%;
 }
 
+.icon-home{
+  margin-right: 2px;
+  
+}
+
 .contador {
   width: 100%;
 }
 
+.left-panel{
+  left: -90%;
+}
 
+li{
+font-size: 1.5rem;
+margin: 1.5rem 0;
+}
 
 #DragonBall {
   width: 120px;
@@ -700,5 +853,33 @@ tbody tr td a:hover{
 }
 }
 
+@media (min-width: 739px) and (max-width: 1000px)  {
+.s4{
+  margin-top: 0;
+}
+}
+@media (min-width: 883px) and (max-width: 1000px){
+.s5{
+  margin-top: 0;
+}
+}
+@media (min-width: 1001px) and (max-width: 1054px){
+.s7{
+  margin-top: 10px;
+}
+}
+@media (min-width: 450px) and (max-width: 593px){
+.s7{
+  margin-top: 10px;
+}
+}
 
+@media (min-width: 305px) and (max-width: 449px){
 
+.s7{
+margin-top: 10px;
+}
+.s3{
+  margin-top: 10px;
+}
+}
