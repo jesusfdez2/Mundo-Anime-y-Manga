@@ -1,20 +1,160 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 body{
    background: #e6e6e6;
   font-size: 20px;
+  transition: .4s ease all;
+  
 }
+
+body.dark{
+   background: #1b1919
+}
+
+body.dark header nav{
+  background:#0a0909;
+  
+}
+body.dark header nav ul li1 a {
+  color:#fff;
+}
+
+body.dark header nav ul li1 a:hover{
+  background:#1b1919;
+}
+
+body.dark .menu {
+  background: #322e2e;
+  color:white ;
+}
+
+body.dark .left-panel {
+  background:  -webkit-linear-gradient(black, black, black);
+  /*opera*/
+  background: -o-linear-gradient(black, black, black);
+  /*estandar*/
+  background: linear-gradient(black, black, black);
+}
+
+body.dark li:hover {
+    color: grey;
+    border: solid grey;
+    border-width: 0 0.1rem;
+}
+
+
+body.dark .menus {
+  background: #322e2e;
+  color:white ;
+}
+
+body.dark .left-panels {
+  background:  -webkit-linear-gradient(black, black, black);
+  /*opera*/
+  background: -o-linear-gradient(black, black, black);
+  /*estandar*/
+  background: linear-gradient(black, black, black);
+}
+
+body.dark li.lil:hover {
+    color: grey;
+    border: solid grey;
+    border-width: 0 0.1rem;
+}
+
+
+body.dark .main .articles {
+  background: #221f1f;
+  color: #fff;
+}
+
+body.dark aside {
+  background:#222020;
+  color: #fff;
+}
+
+body.dark .boton1 {
+  background: black;
+  color: #fff;
+display: inline-block;
+font-size: 20px;
+margin: 20px ;
+padding: 10px 0px;
+text-align: center;
+width: 200px;
+text-decoration: none;
+box-shadow: 0px 3px 0px black;
+border-radius: .5em;
+cursor: pointer;
+transition:background-color 1s
+}
+
+.boton1:hover {
+  background-color: #888
+}
+
+
+body.dark .link {
+  color: #ff5100;
+}
+
+.switch{
+  background: #343D5B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+}
+
+.switch::after{
+content:"";
+display: block;
+width: 30px;
+height: 30px;
+position: absolute;
+background: #F1F1F1;
+top: 0;
+left: 0;
+right: unset;
+border-radius: 100px;
+transition: .4s ease all;
+box-shadow: 0px 0px 2px 2px rgba(0,0,0.2); 
+
+}
+
+.switch.active{
+  background: orange;
+  color: #000;
+
+}
+
+.switch.active::after{
+  right: 0;
+  left: unset;
+}
+
+.switchs{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
+
+
 
 header, .main {
   width:90%;
   max-width:950px;
   margin:10px auto;
 }
-.Animes1 {
-    color:#64F01E ;
-}
 
-.Mangas1 {
-  color:#EAE306;
-}
 header nav{
   background:#528ED5;
   overflow: hidden;
@@ -71,7 +211,7 @@ header nav ul li1 a:hover{
   background: -o-linear-gradient(#54BBC7, #2EE3AD, #9191f2);
   /*estandar*/
   background: linear-gradient(#54BBC7, #2EE3AD, #9191f2);
-  
+  z-index: 30;
   top: 0;
   left: -40%;
   display: flex;
@@ -108,6 +248,78 @@ li:hover {
     border: solid white;
     border-width: 0 0.1rem;
 }
+
+
+/** Segundo menu **/
+.menus {
+  width: 2.2rem;
+  height: 2.7rem;
+  background: #2EE3AD;
+  border-radius: 0.5rem;
+  
+  top: 40%;
+  left: 5%;
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  transition: left 0.7s;
+  position: fixed;
+}
+
+.checkboxs:checked ~ .menus {
+  left: 40%;
+  border-radius: 0 0.5rem 0.5rem 0;
+  position: fixed;
+}
+
+.left-panels {
+  width: 40%;
+  height: 100%;
+  /*safari*/
+  background:  -webkit-linear-gradient(#54BBC7, #2EE3AD, #9191f2);
+  /*opera*/
+  background: -o-linear-gradient(#54BBC7, #2EE3AD, #9191f2);
+  /*estandar*/
+  background: linear-gradient(#54BBC7, #2EE3AD, #9191f2);
+  
+  top: 0;
+  left: -40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: left 0.4s;
+  position: fixed;
+}
+
+.checkboxs:checked ~ .left-panels {
+    left: 0;
+}
+
+.checkboxs {
+    display: none;
+    
+}
+
+ul.ull a.menuu {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+li.lil {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 0.5rem;
+    margin: 1rem 0;
+}
+
+li.lil:hover {
+    color: white;
+    border: solid white;
+    border-width: 0 0.1rem;
+}
+
 .main .articles {
   width: 68.5%;
   background: #fff;
@@ -130,6 +342,31 @@ h1 {
 #logo {
   margin: 20px 0px 0px 200px;
 }
+.icon-info-with-circle{
+  margin-right: 5px;
+  color: #fff;
+}
+.copy:hover{
+  color: #000;
+}
+
+.copy:visited{
+  color: #000;
+}
+
+.botones{
+  max-height: 400px;
+  overflow-y: visible;
+    overflow-x: hidden;
+}
+
+
+.link{
+  margin-left: 70%;
+  cursor: pointer;
+  position: fixed;
+}
+
 
 .boton1 {
   background: #0004ff;

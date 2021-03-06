@@ -5,6 +5,8 @@
           <link rel="icon" type="image/jpg" href="../../../../Imagenes/favicon.png" />
 
           <link rel="stylesheet" type="text/css" href="CSS/Episodios.css" />
+          <link rel="stylesheet" type="text/css" href="../../../../fonts/style.css" />
+          <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <meta name="description" content="En esta página encontraréis todo tipo de anime/Manga.
           A medida que pase el tiempo habrá más contenido." />
@@ -19,12 +21,16 @@
     <div class="Inicio">
     <nav>
         <ul>
-            <li1><a href="../../../../index.html" class="seccion">Inicio</a></li1>
+            <li1><a href="../../../../index.html" class="seccion"><span class=" icon-home"></span>Inicio</a></li1>
             <li1><a href="#" class="seccion2">Introducción</a></li1>
             <li1><a href="../../../../Menu/RedesSociales.html">Redes Sociales</a></li1>
             <li1><a href="../../../../Menu/Agradecimientos.html">Agradecimientos</a></li1>
             <li1><a href="../../../../Menu/Novedades.html">Novedades</a></li1>
-
+            <div class="boton">
+                <button class="switch" id="switch">
+               <span class="switchs"><i class="fas fa-sun"></i></span>
+               <span class="switchs"><i class="fas fa-moon"></i></span>
+            </button>
         </ul>
     </nav>
 </div>
@@ -32,11 +38,9 @@
  <section class="main">
         <section class="articles">
             <article>
-<h1></h1> 
 
-<p> 
-</p>
-<a href="Episodios/Episodio 1.html" class="boton1">Episodio 1</a>     
+<div class="botones">
+<a name="Episodio1" href="Episodios/Episodio 1.html" class="boton1">Episodio 1</a>     
 <a href="Episodios/Episodio 2.html" class="boton1">Episodio 2</a>
 <a href="Episodios/Episodio 3.html" class="boton1">Episodio 3</a>
 <a href="Episodios/Episodio 4.html" class="boton1">Episodio 4</a>
@@ -45,14 +49,14 @@
 <a href="Episodios/Episodio 7.html" class="boton1">Episodio 7</a>
 <a href="Episodios/Episodio 8.html" class="boton1">Episodio 8</a>
 <a href="Episodios/Episodio 9.html" class="boton1">Episodio 9</a>
-                <a href="Episodios/Episodio 10.html" class="boton1">Episodio 10</a>
+                <a name="Episodio10" href="Episodios/Episodio 10.html" class="boton1">Episodio 10</a>
                 <a href="Episodios/Episodio 11.html" class="boton1">Episodio 11</a>
                 <a href="Episodios/Episodio 12.html" class="boton1">Episodio 12</a>
                 <a href="Episodios/Episodio 13.html" class="boton1">Episodio 13</a>
                 <a href="Episodios/Episodio 14.html" class="boton1">Episodio 14 <br> (Mixto)</a>
                 <a href="Episodios/Episodio 15.html" class="boton1">Episodio 15</a>
 
-
+</div>
         
 </section>
 </section>
@@ -66,14 +70,32 @@
     <div class="left-panel">
     <ul>
     <a href="../../Animes.html"><li>Animes</li></a>    
-    <a href=""><li>Mangas</li></a>    
-    <a href="#"><li>Modo Oscuro</li></a> 
-     
+    <a href="../../../Mangas/Mangas.html"><li>Mangas</li></a>   
+     <a href="../../../../Fansxfans/Fansxfans.html"><li>De Fans para fans</li></a> 
+
+        
+    </ul>
+    </div>
+    <input type="checkbox" class="checkboxs" id="checkk">
+    <label class="menus"  for="checkk">|||</label>
+    <div class="left-panels">
+    <ul class="ull">
+        <a class="menuu">Menú Rápido:</a> <br>
+     <a class="menuu" href="#Episodio1"><li class="lil">Episodio 1</li></a> 
+     <a class="menuu" href="#Episodio10"><li class="lil">Episodio 10</li></a>
+     <a href="../Naruto.html"><li>Volver atrás</li></a>   
         
     </ul>
     </div>
         
+<!-- Start of CuterCounter Code -->
+<a><img src="https://www.cutercounter.com/hits.php?id=hexxonnd&nd=9&style=27" border="0" alt="contador gratis"></a>
+<!-- End of CuterCounter Code -->
+
+
          <footer>
-    <p>Mundo Anime y Manga  -2020</p>
+     <p> <a class="copy" href="../../../../Copyright/Copyright.html" target="_blank" ><span class="icon-info-with-circle"></span></a>Mundo Anime y Manga  -2020</p>
+
 </footer>
+<script src="../../../../js/Pagina1.js"></script>
 </body>
